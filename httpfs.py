@@ -22,8 +22,7 @@ if("-v" in inputString):
         "404 Not Found: Server cannot retrieve the page that was requested."+"\n"
         )
   
-#port = 10000
-#path = 'C:\\Users\\Nikunj\\Directory2'
+
 if("-p" in inputString):
   port = inputList[indexPort[0]+1]
 else:
